@@ -1,0 +1,46 @@
+.osnova {
+  width: 650px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+  .ramka {
+    width: 620px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    .page-list{
+      display: flex;
+      justify-content: center;
+      align-items: center;}
+
+    .krug {
+      background: #DCDCDC;
+      padding: 0px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 17px;
+      font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: .5s;}
+    .krug:hover {background: #0000CD;
+      color: white;}
+    .active {background: #0000CD;
+      color: white;}
+
+    .krug-left {margin-right: 17px;}
+    .krug-right {margin-left: 17px;}
+
+.non-styles{
+  text-decoration: none;
+  list-style: none;
+  padding: 0px;}
+
+
