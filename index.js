@@ -9,6 +9,7 @@ export default class OnlineStorePage {
     this.products = [];
     this.url = new URL ('products', BACKEND_URL);
     this.url.searchParams.set ('_limit', this.pageSize);
+    
     this.components = {};
     
     this.initComponents ();
